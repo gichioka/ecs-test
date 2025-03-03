@@ -35,9 +35,9 @@ env:
   ECR_REPOSITORY: testrepo           # set this to your Amazon ECR repository name
   ECS_SERVICE: app-service                # set this to your Amazon ECS service name
   ECS_CLUSTER: ecs-cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: testrepo-task-revision1.json 　
+  ECS_TASK_DEFINITION: testrepo-task-revision1.json 
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: testrepo           # set this to the name of the container in the
+  CONTAINER_NAME: simple-container         # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:

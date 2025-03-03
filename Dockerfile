@@ -1,2 +1,3 @@
-FROM httpd:2.4
-COPY test.txt /usr/local/apache2/htdocs/test.txt
+FROM nginx:mainline-alpine
+
+COPY index.html /usr/share/nginx/html/

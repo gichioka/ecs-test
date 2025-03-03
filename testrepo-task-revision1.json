@@ -2,8 +2,8 @@
     "taskDefinitionArn": "arn:aws:ecs:ap-northeast-1:684591648795:task-definition/app-task:1",
     "containerDefinitions": [
         {
-            "name": "app",
-            "image": "684591648795.dkr.ecr.ap-northeast-1.amazonaws.com/testrepo",
+            "name": "simple-container",
+            "image": "684591648795.dkr.ecr.ap-northeast-1.amazonaws.com/testrepo:latest",
             "cpu": 0,
             "portMappings": [
                 {
@@ -46,3 +46,4 @@
     "registeredBy": "arn:aws:iam::684591648795:root",
     "tags": []
 }
+
